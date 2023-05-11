@@ -1,0 +1,11 @@
+.menu a {
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    color: black;
+}
+.user-info img {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
