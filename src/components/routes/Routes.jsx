@@ -3,7 +3,6 @@ import Main from "../layouts/Main";
 import Home from "../pages/Home";
 import Blogs from "../pages/Blogs";
 import Details from "../pages/Details";
-import ChefRecipe from "../pages/ChefRecipe";
 import ChefDetails from "../pages/ChefDetails";
 import NotFound from "../pages/NotFound";
 import Profile from "../pages/Profile";
@@ -19,17 +18,17 @@ const router = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />,
-                loader: () => fetch('https://bangla-food-server-mrmozammal-gmailcom.vercel.app/recipes')
+                loader: () => fetch('https://b7a10-chef-recipe-hunter-server-side-md-sofiul-alam-dt3ufmjl7.vercel.app/recipes')
             },
             {
                 path: '/recipes/:id',
                 element: <PrivateRoutes><ChefDetails /></PrivateRoutes>,
-                loader: ({ params }) => fetch(`https://bangla-food-server-mrmozammal-gmailcom.vercel.app/recipes/${params.id}`)
+                loader: ({ params }) => fetch(`https://b7a10-chef-recipe-hunter-server-side-md-sofiul-alam-dt3ufmjl7.vercel.app/recipes/${params.id}`)
             },
             {
                 path: '/blogs',
                 element: <Blogs />,
-                loader: () => fetch('https://bangla-food-server-mrmozammal-gmailcom.vercel.app/blogs')
+                loader: () => fetch('https://b7a10-chef-recipe-hunter-server-side-md-sofiul-alam-dt3ufmjl7.vercel.app/blogs')
             },
             {
                 path: '/details',
