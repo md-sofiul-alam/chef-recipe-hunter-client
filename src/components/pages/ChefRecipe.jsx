@@ -7,7 +7,7 @@ const ChefRecipe = ({ chefs }) => {
         <div>
             <div className='text-center w-50 mx-auto mb-5'>
                 <h2 className='text-primary'>Chefs & their Recipes</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ad reprehenderit nesciunt fugit, facere esse impedit cupiditate repellendus eligendi sed.</p>
+                <p>Your satisfaction is Our first 'acquirement' Then the benefits </p>
             </div>
             <div className="row">
                 {

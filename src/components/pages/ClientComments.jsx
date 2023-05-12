@@ -22,7 +22,7 @@ const ClientComments = () => {
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h3><mark>Kurban Ali</mark> </h3>
+                            <h3><mark>Hero Alam</mark> </h3>
                             <p><mark>Nulla vitae elit libero, a pharetra augue mollis interdum.</mark></p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -35,7 +35,7 @@ const ClientComments = () => {
                         />
 
                         <Carousel.Caption>
-                            <h3><mark>Ali Mia</mark></h3>
+                            <h3><mark>Rafiqul Alam</mark></h3>
                             <p><mark>Nulla vitae elit libero, a pharetra augue mollis interdum.</mark></p>
                         </Carousel.Caption>
                     </Carousel.Item>
@@ -48,7 +48,7 @@ const ClientComments = () => {
                         />
 
                         <Carousel.Caption>
-                            <h3><mark>Suruj Mia</mark></h3>
+                            <h3><mark>Solaiman Sukon</mark></h3>
                             <p><mark>Nulla vitae elit libero, a pharetra augue mollis interdum.</mark></p>
                         </Carousel.Caption>
                     </Carousel.Item>

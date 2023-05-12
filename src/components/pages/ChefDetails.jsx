@@ -14,7 +14,7 @@ const ChefDetails = () => {
                 <div className="col-md-8 col-sm-12">
                     <h2 className='text-center py-4 text-primary'>Chef Details</h2>
                     <Card>
-                        <Card.Img className='p-3' variant="top" src={image_url} />
+                        <Card.Img className='p-3 rounded' variant="top" src={image_url} />
                         <Card.Body>
                             <hr />
                             <Card.Title className='text-primary fs-2'>Name: {name}</Card.Title>

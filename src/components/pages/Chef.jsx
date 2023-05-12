@@ -19,7 +19,7 @@ const Chef = ({ chef }) => {
                 <LazyLoadImage
                     style={measurement}
                     src={image_url}
-                    className='p-3'
+                    className='p-3 rounded'
                     effect="blur"
                 />
                 {/* <Card.Img  variant="top" /> */}
