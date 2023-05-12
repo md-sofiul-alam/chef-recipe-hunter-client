@@ -68,7 +68,7 @@ const SignUp = () => {
                         className='ms-4'
                     /> <span>Update</span>
                     <br />
-                    <small>Already have an Account <Link to='/login'>Login</Link> </small>
+                    <small>Already have an Account? <Link to='/login'>Login</Link> </small>
                     <p className='error-text'>{error}</p>
                 </form>
             </div>
