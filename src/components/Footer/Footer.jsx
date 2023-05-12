@@ -15,7 +15,7 @@ const Footer = () => {
                         <Link >Contact </Link>
                     </div>
                     <div className="col-md-7">
-                        <h3>Bangla Food</h3>
+                        <h3>Chef Stories Deshi Food</h3>
                         <hr className='border-white'/>
                         <p>Chief Stories is known for its vibrant flavors and unique blend of sweet and spicy tastes. The use of mustard oil, fish, and panch phoron (a blend of five spices) are some of the defining features of Bengali food. Popular dishes include fish curry, biryani, and sweets like rasgulla and mishti doi.</p>
                     </div>

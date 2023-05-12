@@ -1,7 +1,6 @@
 {
   "hosting": {
-    "site": "chep-stories",
-    "public": "public",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",
