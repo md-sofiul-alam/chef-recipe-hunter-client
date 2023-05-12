@@ -17,7 +17,7 @@ const Blog = ({ blog }) => {
     });
     const { title, answer } = blog;
     return (
-        <div className='col-sm-12 col-md-12 mb-5'>
+        <div className='col-sm-12 col-md-6 mb-5'>
             <Document>
                 <Page size="A4" style={styles.page}>
                     <View style={styles.section}>
@@ -28,7 +28,6 @@ const Blog = ({ blog }) => {
                                     <Card.Text>
                                         {answer}
                                     </Card.Text>
-                                    <Button variant="primary">Read Full Blog</Button>
                                 </Card.Body>
                             </Card>
                         </Text>

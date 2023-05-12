@@ -7,7 +7,7 @@ const Blogs = () => {
     return (
         <div className='container'>
             <div className="row">
-                <h2 className='text-center my-5 text-primary'>Blogs Page</h2>
+                <h2 className='text-center my-5 text-primary'>My Blog</h2>
                 {
                     blogs.map(blog => <Blog
                         key={blog.id}
